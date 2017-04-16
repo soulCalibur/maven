@@ -1,0 +1,11 @@
+命令行 将jar生产成maven结构
+mvn deploy:deploy-file -DgroupId=com.oracle2 -DartifactId=ojdbc16 -Dversion=11.2.0.4.0 -Dpackaging=jar -Dfile=ojdbc16-11.2.0.4.0.jar -Durl=file:/work/xxx/
+
+将work/xxx/下的内容拷贝到git的repo目录中
+问题推送到github
+
+私服地址
+https://raw.github.com/soulCalibur/maven_repository/master/repo
+https://raw.github.com/git用户名/git仓库名/git分支/存放maven结构的更目录名称（直接置于分支中则没有）
+
+
